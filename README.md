@@ -42,4 +42,18 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 ## 📁 Estrutura do Projeto
 📦 projeto-rotatividade-funcionarios ├── 📄 projeto_rotatividade_consultas.sql ├── 📊 graficos_excel/ │ └── imagens dos gráficos gerados ├── 📁 dataset/ │ └── WA_Fn-UseC_-HR-Employee-Attrition.csv └── 📄 README.md
 
+## 📌 Conclusões
+
+- Funcionários que fazem hora extra têm uma taxa de saída significativamente maior.
+- Cargos como "Laboratory Technician" e "Sales Executive" lideram em desligamentos.
+- A média salarial entre os que saem é levemente inferior aos que permanecem.
+- Funcionários mais jovens têm maior propensão a deixar a empresa.
+
+## 👤 Autor
+
+Salomão Valentim  
+Estudante de Engenharia de Software | Análise de Dados com foco em SQL  
+[LinkedIn](www.linkedin.com/in/salomaovalentim) • [Medium](https://medium.com) 
+
+
 
