@@ -53,7 +53,7 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 
 Salomão Valentim  
 Estudante de Engenharia de Software | Análise de Dados com foco em SQL  
-[LinkedIn](www.linkedin.com/in/salomaovalentim) • [Medium](https://medium.com) 
+[LinkedIn](www.linkedin.com/in/salomaovalentim) • [Medium](https://medium.com/@salomaovalentim31/análise-de-rotatividade-de-funcionários-com-sql-meu-primeiro-projeto-de-dados-f41000b49d63) 
 
 
 
