@@ -29,7 +29,11 @@ ORDER BY COUNT(Attrition) DESC;
 SELECT 
 	OverTime AS Hora_extra,
 	COUNT(*) AS Total_funcionarios,
-	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Desligamento
+	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Total_desligados,
+	ROUND(
+		100.0 * SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),
+		2
+	) AS Taxa_desligamento_percentual
 FROM [Employee-Attrition]
 GROUP BY OverTime;
 
