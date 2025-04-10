@@ -28,6 +28,7 @@ ORDER BY COUNT(Attrition) DESC;
 -- Existe alguma relação entre fazer hora extra e a rotatividade?
 SELECT 
 	OverTime AS Hora_extra,
+	COUNT(*) AS Total_funcionarios,
 	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Desligamento
 FROM [Employee-Attrition]
 GROUP BY OverTime;
