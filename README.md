@@ -20,18 +20,20 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 |--------|------|
 | Kaggle | Dados fictícios de RH |
 
-## 🔍 Perguntas respondidas com SQL
+## 🔍 Principais Insights
 
-- Quantos funcionários saíram da empresa?
-- Qual é a média de salário entre os funcionários que saíram e os que ficaram?
-- Quais departamentos têm o maior número de desligamentos?
-- Existe alguma relação entre fazer hora extra e a rotatividade?
-- Qual é o tempo médio de empresa entre os que saíram e os que ficaram?
-- Quais cargos tiveram mais saídas de funcionários?
-- Entre os funcionários que fazem hora extra, qual é a taxa de saída?
-- Qual é a média de satisfação no trabalho entre os que saíram e os que permaneceram?
-- Funcionários mais jovens saem mais?
-- Quais combinações de idade apresentam mais saídas?
+| Métrica                              | Resultado                          |
+|-------------------------------------|------------------------------------|
+| Total de desligamentos              | 237 funcionários                   |
+| Média salarial (ficaram)            | R$ 6.832,00                         |
+| Média salarial (saíram)             | R$ 4.787,00                         |
+| Hora extra e desligamento           | 30,53% com hora extra saíram       |
+| Média de idade (saíram)             | 33 anos                             |
+| Cargo com mais desligamentos        | Laboratory Technician              |
+| Tempo médio na empresa (saíram)     | 5 anos                             |
+| Satisfação no trabalho (média)      | 2 (tanto para quem saiu como ficou) |
+
+---
 
 ## 💻 Ferramentas Utilizadas
 
