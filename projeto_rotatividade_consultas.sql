@@ -1,7 +1,7 @@
 
 -- Quantos funcionários saíram da empresa
 SELECT
-	COUNT(*) as Total_funcinários,
+	COUNT(*) as Total_funcionários,
 	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Saiu_empresa
 FROM [Employee-Attrition];
 
@@ -25,17 +25,6 @@ WHERE Attrition = 'Yes'
 GROUP BY Department
 ORDER BY COUNT(Attrition) DESC;
 
--- Existe alguma relação entre fazer hora extra e a rotatividade?
-SELECT 
-	OverTime AS Hora_extra,
-	COUNT(*) AS Total_funcionarios,
-	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Total_desligados,
-	ROUND(
-		100.0 * SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),
-		2
-	) AS Taxa_desligamento_percentual
-FROM [Employee-Attrition]
-GROUP BY OverTime;
 
 -- Qual é o tempo médio de empresa entre os que saíram e os que ficaram
 SELECT
