@@ -44,15 +44,15 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 ## 📁 Estrutura do Projeto
 📦 projeto-rotatividade-funcionarios ├── 📄 projeto_rotatividade_consultas.sql ├── 📊 graficos_excel/ │ └── imagens dos gráficos gerados ├── 📁 dataset/ │ └── WA_Fn-UseC_-HR-Employee-Attrition.csv └── 📄 README.md
 
-## 📌 Conclusões
+## Conclusão
 
-- Funcionários que fazem hora extra têm uma taxa de saída significativamente maior.
-- Cargos como "Laboratory Technician" e "Sales Executive" lideram em desligamentos.
-- A média salarial entre os que saem é levemente inferior aos que permanecem.
-- Funcionários mais jovens têm maior propensão a deixar a empresa.
+Ao analisar os dados de rotatividade da empresa, foi possível identificar quais departamentos e cargos apresentam os maiores índices de saída proporcional. Mesmo com tamanhos diferentes de equipe, os departamentos de Sales, Recursos Humanos e Pesquisa & Desenvolvimento chamam atenção por suas taxas mais elevadas de desligamento.
+
+Entre os cargos, o destaque vai para o de Sales Representative, que apresentou a maior taxa de saída (quase 40%), seguido por Técnico de Laboratório e o próprio setor de Recursos Humanos. Esses números sugerem que algumas funções podem estar enfrentando mais desafios relacionados a clima organizacional, carga de trabalho ou até falta de reconhecimento.
+
+Com base nesses dados, a empresa pode olhar com mais atenção para esses setores e cargos, buscando entender melhor os motivos por trás dessas saídas e pensar em estratégias para melhorar a retenção. A análise mostra que usar os dados de forma inteligente pode ajudar a direcionar decisões mais eficazes e a criar um ambiente de trabalho mais saudável para todos.
 
 ## 👤 Autor
-
 Salomão Valentim  
 Estudante de Engenharia de Software | Análise de Dados com foco em SQL  
 [LinkedIn](www.linkedin.com/in/salomaovalentim) • [Medium](https://medium.com/@salomaovalentim31/análise-de-rotatividade-de-funcionários-com-sql-meu-primeiro-projeto-de-dados-f41000b49d63) 
