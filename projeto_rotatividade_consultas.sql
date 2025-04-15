@@ -16,14 +16,18 @@ FROM [Employee-Attrition]
 GROUP BY Attrition
 ORDER BY Attrition;
 
--- Quais departamentos têm o maior número de desligamentos 
-SELECT
+-- Taxa de Saída por derpatamentos
+SELECT 
 	Department,
-	COUNT(Attrition) AS Maiores_desligamentos
+	COUNT(*) AS total_funcionários,
+	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Saídas,
+	ROUND(
+		100.0 * SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),
+		2		
+	) AS Taxa_Saída_Porcentual
 FROM [Employee-Attrition]
-WHERE Attrition = 'Yes'
 GROUP BY Department
-ORDER BY COUNT(Attrition) DESC;
+ORDER BY Taxa_Saída_Porcentual DESC;
 
 
 -- Qual é o tempo médio de empresa entre os que saíram e os que ficaram
@@ -36,14 +40,18 @@ SELECT
 FROM [Employee-Attrition]
 GROUP BY Attrition;
 
--- Quais cargos tiveram mais saídas de funcionários?
+-- Taxa de Saída por cargos?
 SELECT
 	JobRole,
-	COUNT(Attrition) AS Saídas
+	COUNT(*) AS Total_Funcionários,
+	SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Saídas,
+	ROUND(
+		100.0 * SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),
+		2
+	) AS Taxa_Saída_Porcentual
 FROM [Employee-Attrition]
-WHERE Attrition = 'Yes'
 GROUP BY JobRole
-ORDER BY COUNT(Attrition) DESC;
+ORDER BY Taxa_Saída_Porcentual DESC;
 
 -- Entre os funcionários que fazem hora extra, qual é a taxa de saída?
 SELECT
