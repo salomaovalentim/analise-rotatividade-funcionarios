@@ -1,18 +1,18 @@
-# 📊 Análise de Rotatividade de Funcionários (Employee Attrition) - Projeto SQL
+#  Análise de Rotatividade de Funcionários (Employee Attrition) - Projeto SQL
 
 Este projeto tem como objetivo explorar um conjunto de dados de Recursos Humanos para analisar padrões de rotatividade de funcionários utilizando SQL Server Management Studio (SSMS). Todas as análises foram feitas com consultas SQL e os resultados foram visualizados no Excel.
 
-## 🧠 Objetivo
+##  Objetivo
 
 Investigar os principais fatores relacionados à saída de funcionários (attrition), como:
 
-- Salário
-- Satisfação no trabalho
-- Tempo de empresa
-- Hora extra
-- Cargo e departamento
+Salário
+Satisfação no trabalho
+Tempo de empresa
+Hora extra
+Cargo e departamento
 
-## 🗂 Dataset
+##  Dataset
 
 O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, contendo informações sobre 1.470 funcionários.
 
@@ -20,7 +20,7 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 |--------|------|
 | Kaggle | Dados fictícios de RH |
 
-## 🔍 Principais Insights
+##  Principais Insights
 
 | Métrica                              | Resultado                          |
 |-------------------------------------|------------------------------------|
@@ -35,14 +35,14 @@ O conjunto de dados utilizado é o `WA_Fn-UseC_-HR-Employee-Attrition.csv`, cont
 
 ---
 
-## 💻 Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 
-- **SQL Server Management Studio (SSMS)** – Para importação do dataset e consultas
-- **Excel** – Para criação de gráficos simples e visualizações
-- **GitHub** – Para versionamento e publicação do projeto
+**SQL Server Management Studio (SSMS)** – Para importação do dataset e consultas
+**Excel** – Para criação de gráficos simples e visualizações
+**GitHub** – Para versionamento e publicação do projeto
 
-## 📁 Estrutura do Projeto
-📦 projeto-rotatividade-funcionarios ├── 📄 projeto_rotatividade_consultas.sql ├── 📊 graficos_excel/ │ └── imagens dos gráficos gerados ├── 📁 dataset/ │ └── WA_Fn-UseC_-HR-Employee-Attrition.csv └── 📄 README.md
+##  Estrutura do Projeto
+ projeto-rotatividade-funcionarios ├──  projeto_rotatividade_consultas.sql ├──  graficos_excel/ │ └── imagens dos gráficos gerados ├──  dataset/ │ └── WA_Fn-UseC_-HR-Employee-Attrition.csv └──  README.md
 
 ## Conclusão
 
@@ -52,7 +52,7 @@ Entre os cargos, o destaque vai para o de Sales Representative, que apresentou a
 
 Com base nesses dados, a empresa pode olhar com mais atenção para esses setores e cargos, buscando entender melhor os motivos por trás dessas saídas e pensar em estratégias para melhorar a retenção. A análise mostra que usar os dados de forma inteligente pode ajudar a direcionar decisões mais eficazes e a criar um ambiente de trabalho mais saudável para todos.
 
-## 👤 Autor
+##  Autor
 Salomão Valentim  
 Estudante de Engenharia de Software | Análise de Dados com foco em SQL  
 [LinkedIn](www.linkedin.com/in/salomaovalentim) • [Medium](https://medium.com/@salomaovalentim31/análise-de-rotatividade-de-funcionários-com-sql-meu-primeiro-projeto-de-dados-f41000b49d63) 
