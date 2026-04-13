@@ -16,13 +16,19 @@ Quanto a empresa perde financeiramente com turnover?
 
  Dataset
 Fonte: Kaggle (WA_Fn-UseC_-HR-Employee-Attrition)
+
 Registros: 1.470 funcionários
+
 Tipo: Dados IBM RH
 
- KPIs Principais
+ KPIs Principais:
+ 
 Taxa de Rotatividade: 16,12%
+
 Total de Funcionários: 1.470
+
 Saídas: 237
+
 Custo Médio por Saída: $48.713
 
 Custo Total Estimado:
