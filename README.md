@@ -2,6 +2,11 @@
 
 Este projeto realiza uma análise completa de rotatividade de funcionários (attrition), combinando SQL Server, análise exploratória e modelagem de custo baseada na metodologia SHRM para traduzir desligamentos em impacto financeiro direto para o negócio.
 
+
+Dashbord: <img width="1410" height="750" alt="Captura de tela 2026-04-11 184159" src="https://github.com/user-attachments/assets/984f0a3a-33e4-4d1c-a477-6ce0a0c6bbe2" />
+
+
+
 # Objetivo
 
 Identificar drivers de rotatividade e quantificar o impacto financeiro das saídas, respondendo perguntas como:
