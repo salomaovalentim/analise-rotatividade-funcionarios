@@ -2,7 +2,7 @@
 
 Este projeto realiza uma análise completa de rotatividade de funcionários (attrition), combinando SQL Server, análise exploratória e modelagem de custo baseada na metodologia SHRM para traduzir desligamentos em impacto financeiro direto para o negócio.
 
- Objetivo
+# Objetivo
 
 Identificar drivers de rotatividade e quantificar o impacto financeiro das saídas, respondendo perguntas como:
 
@@ -14,14 +14,14 @@ Existe relação entre salário e desligamento?
 
 Quanto a empresa perde financeiramente com turnover?
 
- Dataset
+# Dataset
 Fonte: Kaggle (WA_Fn-UseC_-HR-Employee-Attrition)
 
 Registros: 1.470 funcionários
 
 Tipo: Dados IBM RH
 
- KPIs Principais:
+# KPIs Principais:
  
 Taxa de Rotatividade: 16,12%
 
@@ -35,7 +35,7 @@ Custo Total Estimado:
 
 237 × 48.713 = $11.545.981
 
- Metodologia de Custo (SHRM)
+# Metodologia de Custo (SHRM)
  
 Baseado no padrão da Society for Human Resource Management (SHRM):
 
@@ -45,34 +45,43 @@ JobLevel 3 (Sênior): 100% do salário anual
 
 JobLevel 4–5 (Estratégico): 200% do salário anual
 
-Componentes considerados:
+# Componentes considerados:
 
 Recrutamento e seleção
+
 Treinamento e onboarding
+
 Perda de produtividade
- Análises com Impacto Financeiro
+
+# Análises com Impacto Financeiro
+
  1. Rotatividade por Hora Extra
+ 
 Com hora extra: 30,53%
+
 Sem hora extra: 10,44%
-Cálculo estimado:
+
+# Cálculo estimado:
 
 Assumindo distribuição proporcional das 237 saídas:
 
 Com hora extra:
+
 237 × 30,53% ≈ 72 saídas
 
 72 × 48.713 ≈ $3.507.336
 
 Sem hora extra:
+
 237 × 10,44% ≈ 25 saídas
 
 25 × 48.713 ≈ $1.217.825
 
-Insight:
+# Insight:
 
 Funcionários com hora extra têm ~3x mais risco de saída, gerando impacto financeiro significativamente maior.
 
-🏢 2. Rotatividade por Departamento
+ 2. Rotatividade por Departamento
 Sales — 20,63%
 
 237 × 20,63% ≈ 49 saídas
@@ -91,7 +100,7 @@ Research & Development — 13,84%
 
 33 × 48.713 ≈ $1.607.529
 
-Insight:
+# Insight:
 Sales lidera em impacto financeiro absoluto
 
 RH também apresenta nível crítico (indicando problema estrutural interno)
@@ -115,7 +124,7 @@ Human Resources — 23,08%
 
 55 × 48.713 ≈ $2.679.215
 
-Insight:
+# Insight:
 O cargo de Sales Representative sozinho pode representar ~40% do problema
 Forte indicativo de:
 
@@ -138,10 +147,10 @@ Ficaram: $5.5k
 
 Saíram: $4.8k
 
-Insight:
+# Insight:
 Salário atua como fator de retenção direto, principalmente em fases intermediárias da carreira.
 
- Impacto Estratégico
+# Impacto Estratégico
 Simulação: Redução de 20% no Turnover
 
 237 × 20% = 47 saídas evitadas
@@ -160,7 +169,7 @@ Cargos operacionais concentram maior risco
 
 Salário e progressão de carreira influenciam diretamente a retenção
 
- Recomendações Baseadas em Dados
+# Recomendações Baseadas em Dados
  
 Reduzir carga de horas extras
 
@@ -178,7 +187,7 @@ Ajuste salarial estratégico
 
 Foco em faixas críticas de saída
 
- Ferramentas
+# Ferramentas
 SQL Server (SSMS)
 Power BI (Visualização)
 GitHub (versionamento)
