@@ -113,7 +113,7 @@ Sales lidera em impacto financeiro absoluto
 RH também apresenta nível crítico (indicando problema estrutural interno)
 
  3. Rotatividade por Cargo (JobRole)
-Sales Representative — 39,76%
+Sales Representative — 39,76% - A análise identificou que Sales Representatives concentram alta carga de overtime nos primeiros anos, período que também apresenta maior incidência de turnover. A distribuição homogênea do tempo de permanência (média e mediana de ~2 anos) sugere um problema estrutural da função, indicando que a estratégia atual pode estar priorizando performance de curto prazo em detrimento da sustentabilidade da equipe.”
 
 237 × 39,76% ≈ 94 saídas
 
